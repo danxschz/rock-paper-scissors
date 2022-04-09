@@ -1,13 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="rock_paper_scissors.js" defer></script>
+  <title>Rock, Paper, Scissors</title>
 </head>
+
 <body>
-  <p>Test</p>
-  <script src="rock_paper_scissors.js"></script>
+  <div class="top">
+    <div class="title">Rock, Paper, Scissors</div>
+    <div>Best of 5 wins!</div>
+  </div>
+
+  <div class="buttons">
+    <button>Rock</button>
+    <button>Paper</button>
+    <button>Scissors</button>
+  </div>
+
+  <div class="results">
+    <div class="title">Results</div>
+    <div id="result">&zwnj;</div>
+    <div class="scores">
+      <div>User: <span id="userscore">0</span></div>
+      <div>Computer: <span id="computerscore">0</span></div>
+    </div>
+  </div>
 </body>
 </html>
