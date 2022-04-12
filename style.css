@@ -40,9 +40,11 @@ button {
   color: white;
   font-weight: bold;
   font-size: 18px;
-  padding: 12px 32px;
+  padding: 12px 0px;
+  width: 120px;
   border: 1px solid #F1C0E8;
   border-radius: 16px;
+  cursor: pointer;
 }
 
 /* Button hover animation */
