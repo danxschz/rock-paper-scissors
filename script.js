@@ -70,7 +70,7 @@ restartButton.classList.add('blue');
 restartButton.setAttribute('onClick', 'window.location.reload();'); // Refresh page
 restartDiv.appendChild(restartButton);
 
-// Allows to stop execution of function for a few seconds
+// Stop execution for a few seconds
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
